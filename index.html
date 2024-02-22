@@ -74,7 +74,7 @@
                 </h1>
                 <h1 class="text-greenish text-3xl md:text-6xl font-bold">Easy Paribahan</h1>
                 <p class="text-white">
-                    Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
+                    Embark on an Unforgettable Journey with Our Reliable and Affordable Bus Service! From cityscapes to scenic routes, we've got your adventure covered. Experience Comfort, Convenience, and Safety from the moment you step onboard.
                 </p>
                 <button class="bg-greenish text-xl font-semibold rounded-lg p-4"><a href="#all-ticket">Buy Tickets</a></button>
             </div>
@@ -112,8 +112,7 @@
                 </div>
                 
             </div>
-        </div>
-          
+        </div>   
     </header>
 
     <main class="">
@@ -163,7 +162,7 @@
         <!-- details section -->
         <section class="container mx-auto px-2 md:px-6 mt-10 md:mt-28 text-center space-y-10 bg-gray-100 rounded-t-3xl border-t-2 border-bordergreen pt-10 md:pt-16 pb-5">
             <h2 class="text-4xl font-bold">Easy Paribahan</h2>
-            <p class="text-gray-400 md:px-10 lg:mx-20">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            <p class="text-gray-400 md:px-10 lg:mx-20">Know Before You Go: Essential Information for a Smooth Journey! From schedules to routes, here's what you need to know.</p>
             <!--div container -->
             <div class=" flex flex-col md:flex-row items-center bg-white rounded-2xl px-2 md:px-4">
                 <!-- left div -->
@@ -220,7 +219,7 @@
 
         <!-- seat design -->
 
-        <section class="container mx-auto px-2 md:px-6 flex flex-col md:flex-row ">
+        <section class="container mx-auto px-2 md:px-6 mb-8 flex flex-col md:flex-row ">
             
             <!-- left div -->
             <div class=" md:w-[60%]">
@@ -256,7 +255,7 @@
                     </div>
                     <!-- left seat-1 -->
 
-                    <div class="col-span-2 text-center">
+                    <div class="col-span-2 text-center mx-2">
                         <div id="A1" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('A1')">A1</div>
                         <div id="B1" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('B1')">B1</div>
                         <div id="C1" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('C1')">C1</div>
@@ -268,7 +267,7 @@
                         <div id="I1" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('I1')">I1</div>
                     </div>
                     <!-- LEFT seat 2 -->
-                    <div class="col-span-2 text-center">
+                    <div class="col-span-2 text-center mr-5">
                         <div id="A2" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('A2')">A2</div>
                         <div id="B2" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('B2')">B2</div>
                         <div id="C2" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('C2')">C2</div>
@@ -280,7 +279,7 @@
                         <div id="I2" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('I2')">I2</div>
                     </div>
                     <!-- LEFT seat 3 -->
-                    <div class="col-span-2 text-center">
+                    <div class="col-span-2 text-center ml-5">
                         <div id="A3" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('A3')">A3</div>
                         <div id="B3" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('B3')">B3</div>
                         <div id="C3" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('C3')">C3</div>
@@ -292,7 +291,7 @@
                         <div id="I3" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('I3')">I3</div>
                     </div>
                     <!-- LEFT seat 4 -->
-                    <div class="col-span-2 text-center">
+                    <div class="col-span-2 text-center mx-2">
                         <div id="A4" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('A4')">A4</div>
                         <div id="B4" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('B4')">B4</div>
                         <div id="C4" class="bg-gray-100 p-2 rounded-lg m-2" onclick="setBackgroundColorById('C4')">C4</div>
@@ -312,7 +311,7 @@
                 <!-- upperdiv -->
                 <div id="last" class="bg-gray-100 p-3 rounded-lg my-4">
                     <div class="">
-                        <table class="table">
+                        <table id="tbl" class="table">
                           <!-- head -->
                           <thead class="">
                             <tr class="text-center">
@@ -330,9 +329,9 @@
                         <h4>Total Price</h4>
                         <h4>BDT <span id="total-price">0</span></h4>
                     </div>
-                    <div id="gayeb" class="bg-white py-2 rounded-xl ">
-                        <input type="text" id="discount" placeholder="Have any coupon?">
-                        <button id="apply-nai" class=" bg-green-400 rounded-lg px-4 py-2 font-semibold text-white" onclick="grandTotal()">Apply</button>
+                    <div id="gayeb" class="bg-white py-2 rounded-xl flex justify-between">
+                        <input class="px-2" type="text" id="discount" placeholder="Have any coupon?">
+                        <button id="apply-nai" class=" bg-green-400 rounded-lg px-4 py-2 mr-2 font-semibold text-white" onclick="grandTotal()">Apply</button>
                     </div>
                     <div class="flex justify-between text-[#030712] font-medium py-2">
                         <h4 class="">Grand Total</h4>
@@ -346,7 +345,7 @@
                     <h3 class="py-1">Phone Number</h3>
                     <input class="border-2 rounded-lg w-full p-2 font-normal" type="number" id="number" placeholder="Enter your number" required >
                     <h3 class="py-1">Email ID</h3>
-                    <input class="border-2 rounded-lg w-full p-2 font-normal" type="email" name="" id="" placeholder="Enter your email id" required>
+                    <input class="border-2 rounded-lg w-full p-2 font-normal" type="email" name="" id="" placeholder="Enter your email id">
                     <br>
                 </form>
                 <button id="btn-enable" class="btn bg-green-400 text-white w-full mt-2" disabled onclick="my_modal_4.showModal()">Next</button>
@@ -371,9 +370,7 @@
         </section>
     </main>
 
-    <footer>
-        
-    </footer>
+    <footer></footer>
     <script src="utility.js"></script>
     <script src="app.js"></script>
 </body>
